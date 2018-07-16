@@ -1,0 +1,17 @@
+
+`squid:S2147D"DCombine this catch with the one at line 66, which has the same body.(†ëˆçùÿÿÿÿ
+bsquid:S2147F"DCombine this catch with the one at line 66, which has the same body.(ä ¹€8­¸ñˆÊ,
+gsquid:CallToDeprecatedMethod-"8Remove this use of "QueueingConsumer"; it is deprecated.(Ýª†Ë8¥…áˆÊ,
+dsquid:S2142F"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8­¸ñˆÊ,
+Esquid:S21891""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8ÝõíˆÊ,
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(×úúÒýÿÿÿÿ8¥…áˆÊ,
+lsquid:CallToDeprecatedMethod2"8Remove this use of "QueueingConsumer"; it is deprecated.(åð£ïþÿÿÿÿ8¥…áˆÊ,
+?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Fsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8­¸ñˆÊ,
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(“± é
+gsquid:CallToDeprecatedMethod-"8Remove this use of "QueueingConsumer"; it is deprecated.(Ýª†Ë8¥…áˆÊ,
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(×™Ûó
+nsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(Ç‹›øÿÿÿÿ8ìôïˆÊ,
