@@ -39,7 +39,7 @@ public class RabbitMQConsumer {
 
         //监听队列
         channel.basicConsume(QUEUE_NAME,true,queueingConsumer);
-        while (true){
+        while (true) {
             QueueingConsumer.Delivery delivery = queueingConsumer.nextDelivery();
             String msg = new String(delivery.getBody());
             System.out.println("old Recv msg:"+msg);

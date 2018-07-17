@@ -1,4 +1,4 @@
-package cn.jiudao.rabbitmq.publicSubscribe;
+package cn.jiudao.rabbitmq.publicsubscribe;
 
 import cn.jiudao.rabbitmq.ConnectionUtils;
 import com.rabbitmq.client.Channel;

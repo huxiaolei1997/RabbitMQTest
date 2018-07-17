@@ -1,4 +1,4 @@
-package cn.jiudao.rabbitmq.publicSubscribe;
+package cn.jiudao.rabbitmq.tx;
 
 import cn.jiudao.rabbitmq.ConnectionUtils;
 import com.rabbitmq.client.*;
@@ -7,23 +7,19 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * SendEmail
+ * RabbitMQConsumerOne
  *
  * version 1.0
  *
- * @create 2018-07-16 16:52
+ * @create 2018-07-17 11:14
  *
  * @copyright huxiaolei1997@gmail.com
  */
-public class SendEmail {
-    /**
-     * 模拟发送邮件
-     */
-    private final static String QUEUE_NAME = "queue_fanout_email";
-    private final static String EXCHANGE_NAME = "exchange_fanout";
+public class RabbitMQConsumerOne {
+    private static final String QUEUE_NAME = "queue_direct_tx";
+    private static final String EXCHANGE_NAME = "exchange_direct_tx";
 
     public static void main(String[] args) throws IOException, TimeoutException {
-        // 获取到连接以及通道
         Connection connection = ConnectionUtils.getConnection();
         final Channel channel = connection.createChannel();
 
@@ -31,25 +27,25 @@ public class SendEmail {
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 
         // 绑定队列到交换机
-        channel.queueBind(QUEUE_NAME, EXCHANGE_NAME, "");
+        channel.queueBind(QUEUE_NAME, EXCHANGE_NAME, "update");
+        //channel.queueBind(QUEUE_NAME, EXCHANGE_NAME, "delete");
 
-        // 设置同一时刻只发送 1 条消息给消费者
+        // 同一时刻只发一条消息给消费者
         channel.basicQos(1);
 
-        // 定义一个消费者
         final Consumer consumer = new DefaultConsumer(channel) {
-          // 消息到达，触发这个方法
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 String message = new String(body, "UTF-8");
-                System.out.println("Recv msg : " + message);
+                System.out.println(" [1] Recv msg :'" + message + "'");
 
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    System.out.println("done");
+                    System.out.println("[1] done");
+                    // 手动回执
                     channel.basicAck(envelope.getDeliveryTag(), false);
                 }
             }
