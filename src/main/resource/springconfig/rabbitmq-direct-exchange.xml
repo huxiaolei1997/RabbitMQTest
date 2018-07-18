@@ -22,21 +22,21 @@
     <rabbit:queue name="myQueue" auto-declare="true" durable="true" />
 
     <!--<rabbit:fanout-exchange name="fanoutExchange" auto-declare="true">-->
-        <!--<rabbit:bindings>-->
-            <!--<rabbit:binding queue="myQueue"></rabbit:binding>-->
-        <!--</rabbit:bindings>-->
+    <!--<rabbit:bindings>-->
+    <!--<rabbit:binding queue="myQueue"></rabbit:binding>-->
+    <!--</rabbit:bindings>-->
     <!--</rabbit:fanout-exchange>-->
 
     <!-- 定义交换器，自动声明 -->
     <rabbit:direct-exchange name="directExchange" auto-declare="true">
         <rabbit:bindings>
-            <rabbit:binding queue="myQueue"></rabbit:binding>
+            <rabbit:binding queue="myQueue" key="item.spring.update" />
         </rabbit:bindings>
     </rabbit:direct-exchange>
 
     <!--  队列监听 -->
     <rabbit:listener-container connection-factory="connectionFactory">
-        <rabbit:listener ref="springConsumer" method="listen" queue-names="myQueue"></rabbit:listener>
+        <rabbit:listener ref="springConsumer" method="listen" queue-names="myQueue" />
     </rabbit:listener-container>
 
     <bean id="springConsumer" class="cn.jiudao.rabbitmq.springrabbit.SpringConsumer" />

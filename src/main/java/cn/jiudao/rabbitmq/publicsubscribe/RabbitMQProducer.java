@@ -28,7 +28,7 @@ public class RabbitMQProducer {
         Channel channel = connection.createChannel();
 
         // 声明交换机 转发器
-        channel.exchangeDeclare(EXCHANGE_NAME, "fanout");// fanout 分裂
+        channel.exchangeDeclare(EXCHANGE_NAME, "fanout");// fanout
 
         // 消息内容
         String message = "Hello PB";
