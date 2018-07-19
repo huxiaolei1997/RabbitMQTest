@@ -35,7 +35,7 @@
     </rabbit:fanout-exchange>
 
     <!--  队列监听 -->
-    <rabbit:listener-container connection-factory="connectionFactory">
+    <rabbit:listener-container connection-factory="connectionFactory" concurrency="3" prefetch="1">
         <rabbit:listener ref="springConsumer" method="listen" queue-names="myQueue"></rabbit:listener>
     </rabbit:listener-container>
 

@@ -22,9 +22,14 @@ public class SpringFanoutExchange {
 
         RabbitTemplate rabbitTemplate = applicationContext.getBean(RabbitTemplate.class);
 
-        rabbitTemplate.convertAndSend( "fanout exchange");
+        for (int i = 0; i < 1000000; i++) {
+            rabbitTemplate.convertAndSend( "fanout exchange" + i);
+            System.out.println("fanout exchange" + i);
+        }
 
-        Thread.sleep(1000);
-        applicationContext.close();
+        //String message = (String) rabbitTemplate.receiveAndConvert("myQueue");
+        //System.out.println("message = " + message);
+        //Thread.sleep(1000);
+        //applicationContext.close();
     }
 }

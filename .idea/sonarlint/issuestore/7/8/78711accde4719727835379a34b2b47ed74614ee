@@ -1,15 +1,15 @@
 
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(“± é8ß¡ë»Ê,
-»%squid:RedundantThrowsDeclarationCheck$"~Remove the declaration of thrown exception 'java.util.concurrent.TimeoutException', as it cannot be thrown from method's body.(¨ð¨Óøÿÿÿÿ8ß¡ë»Ê,
-nsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ÒÙ£»úÿÿÿÿ8ß¡ë»Ê,
-gsquid:CallToDeprecatedMethod&"8Remove this use of "QueueingConsumer"; it is deprecated.(Ýª†Ë8ß¡ë»Ê,
-lsquid:CallToDeprecatedMethod+"8Remove this use of "QueueingConsumer"; it is deprecated.(åð£ïþÿÿÿÿ8ß¡ë»Ê,
 [
-squid:S106-"9Replace this use of System.out or System.err by a logger.(×úúÒýÿÿÿÿ8ß¡ë»Ê,
+squid:S106-"9Replace this use of System.out or System.err by a logger.(×úúÒýÿÿÿÿ8»®ÛäÊ,
+»%squid:RedundantThrowsDeclarationCheck$"~Remove the declaration of thrown exception 'java.util.concurrent.TimeoutException', as it cannot be thrown from method's body.(¨ð¨Óøÿÿÿÿ8»®ÛäÊ,
+Esquid:S2189*""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8»®ÛäÊ,
+lsquid:CallToDeprecatedMethod+"8Remove this use of "QueueingConsumer"; it is deprecated.(åð£ïþÿÿÿÿ8»®ÛäÊ,
+gsquid:CallToDeprecatedMethod&"8Remove this use of "QueueingConsumer"; it is deprecated.(Ýª†Ë8»®ÛäÊ,
+gsquid:S2147>"DCombine this catch with the one at line 60, which has the same body.(†ëˆçùÿÿÿÿ8»®ÛäÊ,
+nsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ÒÙ£»úÿÿÿÿ8»®ÛäÊ,
+gsquid:CallToDeprecatedMethod&"8Remove this use of "QueueingConsumer"; it is deprecated.(Ýª†Ë8»®ÛäÊ,
+Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8»®ÛäÊ,
+qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(“± é8»®ÛäÊ,
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(àÎ²Ó8ß¡ë»Ê,
-gsquid:CallToDeprecatedMethod&"8Remove this use of "QueueingConsumer"; it is deprecated.(Ýª†Ë8ß¡ë»Ê,
-Fsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ß¡ë»Ê,
-Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ß¡ë»Ê,
-gsquid:S2147>"DCombine this catch with the one at line 60, which has the same body.(†ëˆçùÿÿÿÿ8ß¡ë»Ê,
-Esquid:S2189*""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8ß¡ë»Ê,
+squid:S106"9Replace this use of System.out or System.err by a logger.(àÎ²Ó8»®ÛäÊ,
+Fsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8»®ÛäÊ,
