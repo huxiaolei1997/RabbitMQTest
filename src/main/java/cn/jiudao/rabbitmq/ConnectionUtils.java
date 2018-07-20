@@ -20,7 +20,7 @@ public class ConnectionUtils {
         // 定义连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         // 设置服务地址
-        factory.setHost("127.0.0.1");
+        factory.setHost("139.196.140.168");
         // 端口
         factory.setPort(5672);
         // 设置账号信息，用户名、密码、vhost
@@ -30,6 +30,7 @@ public class ConnectionUtils {
 
         // 获取连接
         Connection connection = factory.newConnection();
+        System.out.println("获取RabbitMQ连接成功！");
         return connection;
     }
 }

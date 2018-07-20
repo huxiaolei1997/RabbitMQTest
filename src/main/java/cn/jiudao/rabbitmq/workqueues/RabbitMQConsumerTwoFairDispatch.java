@@ -19,7 +19,7 @@ public class RabbitMQConsumerTwoFairDispatch {
     private static final String QUEUE_NAME = "work_queue";
 
     public static void main(String[] args) throws IOException, TimeoutException {
-        // 获取连接以及 mq`通道
+        // 获取连接以及 mq 通道
         Connection connection = ConnectionUtils.getConnection();
         final Channel channel = connection.createChannel();
         channel.basicQos(1);

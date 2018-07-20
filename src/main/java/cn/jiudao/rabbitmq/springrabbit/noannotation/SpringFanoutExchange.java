@@ -20,12 +20,12 @@ public class SpringFanoutExchange {
          */
         AbstractApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:springconfig/rabbitmq-fanout-exchange.xml");
 
-        RabbitTemplate rabbitTemplate = applicationContext.getBean(RabbitTemplate.class);
+       // RabbitTemplate rabbitTemplate = applicationContext.getBean(RabbitTemplate.class);
 
-        for (int i = 0; i < 1000000; i++) {
-            rabbitTemplate.convertAndSend( "fanout exchange" + i);
-            System.out.println("fanout exchange" + i);
-        }
+//        for (int i = 0; i < 1000000; i++) {
+//            rabbitTemplate.convertAndSend( "fanout exchange" + i);
+//            System.out.println("fanout exchange" + i);
+//        }
 
         //String message = (String) rabbitTemplate.receiveAndConvert("myQueue");
         //System.out.println("message = " + message);
