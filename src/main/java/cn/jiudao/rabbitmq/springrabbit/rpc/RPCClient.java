@@ -12,6 +12,12 @@ import com.rabbitmq.client.AMQP.BasicProperties;
  *
  * @copyright huxiaolei1997@gmail.com
  */
+/**
+ *
+ * @author arron
+ * @date 2015年9月30日 下午3:44:43
+ * @version 1.0
+ */
 public class RPCClient {
 
     private static final String RPC_QUEUE_NAME = "rpc_queue";
@@ -53,7 +59,7 @@ public class RPCClient {
         String corrId = java.util.UUID.randomUUID().toString();
 
         //设置replyTo和correlationId属性值
-       BasicProperties props = new BasicProperties.Builder().correlationId(corrId).replyTo(replyQueueName).build();
+        BasicProperties props = new BasicProperties.Builder().correlationId(corrId).replyTo(replyQueueName).build();
 
         //发送消息到rpc_queue队列
         channel.basicPublish("", RPC_QUEUE_NAME, props, message.getBytes());

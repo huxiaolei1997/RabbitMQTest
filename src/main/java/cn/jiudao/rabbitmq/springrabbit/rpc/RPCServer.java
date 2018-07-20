@@ -16,6 +16,13 @@ import com.rabbitmq.client.QueueingConsumer;
  *
  * @copyright huxiaolei1997@gmail.com
  */
+/**
+ * RPC服务器端
+ *
+ * @author arron
+ * @date 2015年9月30日 下午3:49:01
+ * @version 1.0
+ */
 public class RPCServer {
 
     private static final String RPC_QUEUE_NAME = "rpc_queue";

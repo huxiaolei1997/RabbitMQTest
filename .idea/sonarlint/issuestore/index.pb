@@ -77,3 +77,13 @@ j
 :src/main/resource/springconfig/rabbitmq-topic-exchange.xml,0\6\061da672ecf23c635bc2bd7ecfada04e4a1ad0c5
 „
 Tsrc/main/java/cn/jiudao/rabbitmq/springrabbit/noannotation/SpringDirectExchange.java,4\b\4b19736fbc28bf17a23a1059cfe67754b08352d9
+q
+Asrc/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/Tut6Client.java,3\a\3a53d490d45d2f67ee668e58e1693f977d3262cc
+q
+Asrc/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/Tut6Config.java,3\e\3ec7f22f3323fc2d53e08795563472ef58b2be2a
+q
+Asrc/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/Tut6Server.java,0\a\0ae43b69eecb2c15edfc9527222e2748e847bf86
+p
+@src/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/RPCClient.java,f\2\f2b28f8fdbdecb7e479052544579e60701efe65e
+p
+@src/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/RPCServer.java,e\d\eda8dc6c0d2100e7aa683131d0948c3dcb364732

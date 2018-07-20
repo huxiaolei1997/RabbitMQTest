@@ -1,0 +1,5 @@
+
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚“åžüÿÿÿÿ8ÍÒŸ‰Ë,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(·™ÑŒ8´™¼‰Ë,
+®%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78Ÿ»Í‰Ë,
