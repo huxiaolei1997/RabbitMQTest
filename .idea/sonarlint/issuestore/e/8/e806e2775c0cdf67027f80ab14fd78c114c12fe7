@@ -1,6 +1,6 @@
 
+gsquid:S21474"DCombine this catch with the one at line 50, which has the same body.(†ëˆçùÿÿÿÿ8§ùÁÊ,
 V
 squid:S106("9Replace this use of System.out or System.err by a logger.(÷Œ÷ö8§ùÁÊ,
-gsquid:S21474"DCombine this catch with the one at line 50, which has the same body.(†ëˆçùÿÿÿÿ8§ùÁÊ,
-Fsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§ùÁÊ,
 Fsquid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§ùÁÊ,
+Fsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§ùÁÊ,

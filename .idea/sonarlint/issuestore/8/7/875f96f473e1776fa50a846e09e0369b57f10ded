@@ -1,13 +1,13 @@
 
-[
-squid:S106}"9Replace this use of System.out or System.err by a logger.(Ìã“ğÿÿÿÿÿ8ß¡ë»Ê,
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ß¡ë»Ê,
 U
 squid:S106t"9Replace this use of System.out or System.err by a logger.(˜¦ãd8ß¡ë»Ê,
+nsquid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(¸ÇÀÌøÿÿÿÿ8ß¡ë»Ê,
 \
 squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(àûõûÿÿÿÿ8ß¡ë»Ê,
-[
-squid:S106q"9Replace this use of System.out or System.err by a logger.(ÙÅ’åüÿÿÿÿ8ß¡ë»Ê,
-nsquid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(¸ÇÀÌøÿÿÿÿ8ß¡ë»Ê,
-Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ß¡ë»Ê,
 nsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(ĞÔªşÿÿÿÿ8ß¡ë»Ê,
 nsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(ĞÔªşÿÿÿÿ8ß¡ë»Ê,
+[
+squid:S106q"9Replace this use of System.out or System.err by a logger.(ÙÅ’åüÿÿÿÿ8ß¡ë»Ê,
+[
+squid:S106}"9Replace this use of System.out or System.err by a logger.(Ìã“ğÿÿÿÿÿ8ß¡ë»Ê,

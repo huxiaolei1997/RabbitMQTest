@@ -1,0 +1,5 @@
+
+]squid:S21420"FEither re-interrupt this method or rethrow the "InterruptedException".(фа╣А
+?squid:S1148/"#Use a logger to log this exception.(А╔╘Е¤    
+?squid:S11481"#Use a logger to log this exception.(А╔╘Е¤    
+[squid:S21470"DCombine this catch with the one at line 46, which has the same body.(фа╣А

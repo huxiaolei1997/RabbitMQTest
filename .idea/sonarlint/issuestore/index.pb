@@ -87,3 +87,9 @@ p
 @src/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/RPCClient.java,f\2\f2b28f8fdbdecb7e479052544579e60701efe65e
 p
 @src/main/java/cn/jiudao/rabbitmq/springrabbit/rpc/RPCServer.java,e\d\eda8dc6c0d2100e7aa683131d0948c3dcb364732
+^
+.src/main/java/cn/jiudao/rabbitmq/HelloJob.java,d\5\d5ee15bb64e64d4ae12736780dc76443dd7aff11
+h
+8src/test/java/cn/jiudao/rabbitmq/QuartzScheduleTest.java,a\5\a5b93bc34e6423de43d1e4cf67ad52bf0616bb01
+d
+4src/main/java/cn/jiudao/rabbitmq/QuartzSchedule.java,6\7\6765f846c0f9b4e50aeaf8ea002614e05380e5d5

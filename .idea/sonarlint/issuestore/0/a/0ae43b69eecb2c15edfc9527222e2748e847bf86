@@ -1,6 +1,6 @@
 
-gsquid:S3358"DExtract this nested ternary operation into an independent statement.(ŒèÃùÿÿÿÿ8‚ôÕË,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÿª‘–øÿÿÿÿ8ƒŒÌË,
+gsquid:S3358"DExtract this nested ternary operation into an independent statement.(ŒèÃùÿÿÿÿ8‚ôÕË,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÂÊÇæşÿÿÿÿ8è›ĞË,

@@ -1,10 +1,10 @@
 
-esquid:S001123"FDefine and throw a dedicated exception instead of using a generic one.(¶ÜÎ•8šÎÅË,
-jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ú ·âıÿÿÿÿ8šÎÅË,
+gsquid:CallToDeprecatedMethodD"8Remove this use of "QueueingConsumer"; it is deprecated.(õƒ®û8ÜŒÄ¡Ï,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥×¸şÿÿÿÿ8ÜŒÄ¡Ï,
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ú ·âıÿÿÿÿ8ÜŒÄ¡Ï,
+lsquid:CallToDeprecatedMethod-"8Remove this use of "QueueingConsumer"; it is deprecated.(½™å¡úÿÿÿÿ8ÜŒÄ¡Ï,
+esquid:S001129"FDefine and throw a dedicated exception instead of using a generic one.(¶ÜÎ•8ÜŒÄ¡Ï,
+isquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ãæû™8ÜŒÄ¡Ï,
 [
-squid:S106K"9Replace this use of System.out or System.err by a logger.(öŒÜ®úÿÿÿÿ8šÎÅË,
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãæû™8üªÍË,
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥×¸şÿÿÿÿ8üªÍË,
-gsquid:CallToDeprecatedMethod>"8Remove this use of "QueueingConsumer"; it is deprecated.(õƒ®û8øìÆË,
-lsquid:CallToDeprecatedMethod"8Remove this use of "QueueingConsumer"; it is deprecated.(äèî·ÿÿÿÿÿ8øìÆË,
-lsquid:CallToDeprecatedMethod'"8Remove this use of "QueueingConsumer"; it is deprecated.(½™å¡úÿÿÿÿ8øìÆË,
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(öŒÜ®úÿÿÿÿ8ÜŒÄ¡Ï,
+lsquid:CallToDeprecatedMethod"8Remove this use of "QueueingConsumer"; it is deprecated.(äèî·ÿÿÿÿÿ8ÜŒÄ¡Ï,

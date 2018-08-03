@@ -1,4 +1,5 @@
 
-€squid:S1488 "bImmediately return this expression instead of assigning it to the temporary variable "connection".(“…§Ú8§ùÁÊ,
-Lsquid:S1313".Make this IP "127.0.0.1" address configurable.(äñú8§ùÁÊ,
+Wsquid:S1313"4Make this IP "139.196.140.168" address configurable.(‚Ú¹îÿÿÿÿÿ8“¹é²Ë,
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ÈÓû¨8ÑÁë²Ë,
 Xsquid:S1118":Add a private constructor to hide the implicit public one.(Å ‹ª8§ùÁÊ,
