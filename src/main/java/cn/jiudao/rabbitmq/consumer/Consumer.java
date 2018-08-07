@@ -202,7 +202,9 @@ public class Consumer implements ShutdownListener{
 					System.out.println("Recv msg : " + message + "channel Number : " + channel.getChannelNumber());
 					channel.basicAck(envelope.getDeliveryTag(), false);
 					try {
-						Thread.sleep(3000);
+						//Thread.sleep(3000);
+                        // 此种写法具有更好的可读性，甚至某些时候运行速度相较于 sleep() 更快。
+						TimeUnit.SECONDS.sleep(3);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 						//reConnect();
