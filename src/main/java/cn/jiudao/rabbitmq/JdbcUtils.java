@@ -141,27 +141,27 @@ public class JdbcUtils {
             boolean resultInsert = jdbcUtil2.updateByPreparedStatement("insert into message(message) values(?)", paramsInsert);
             System.out.println(resultInsert);
 
-            // 删除数据
-            List<Object> paramsDelete = new ArrayList<Object>();
-            paramsDelete.add(20);
-            boolean resultDelete = jdbcUtil2.updateByPreparedStatement("delete from user_info where id = ?", paramsDelete);
-            System.out.println(resultDelete);
-
-            // 更新数据
-            List<Object> paramsUpdate = new ArrayList<Object>();
-            paramsUpdate.add(26);
-            paramsUpdate.add(3);
-            boolean result = jdbcUtil2.updateByPreparedStatement("update user_info set age = ? where id = ?", paramsUpdate);
-            System.out.println(result);
-
-            // 查询数据
-            List<Object> paramsFind = new ArrayList<Object>();
-            paramsFind.add(6);
-            List<Map<String, Object>> resultFind = jdbcUtil2.findResult(
-                    "select * from user_info where id = ?", paramsFind);
-            for (Map<String, Object> m : resultFind) {
-                System.out.println(m);
-            }
+//            // 删除数据
+//            List<Object> paramsDelete = new ArrayList<Object>();
+//            paramsDelete.add(20);
+//            boolean resultDelete = jdbcUtil2.updateByPreparedStatement("delete from user_info where id = ?", paramsDelete);
+//            System.out.println(resultDelete);
+//
+//            // 更新数据
+//            List<Object> paramsUpdate = new ArrayList<Object>();
+//            paramsUpdate.add(26);
+//            paramsUpdate.add(3);
+//            boolean result = jdbcUtil2.updateByPreparedStatement("update user_info set age = ? where id = ?", paramsUpdate);
+//            System.out.println(result);
+//
+//            // 查询数据
+//            List<Object> paramsFind = new ArrayList<Object>();
+//            paramsFind.add(6);
+//            List<Map<String, Object>> resultFind = jdbcUtil2.findResult(
+//                    "select * from user_info where id = ?", paramsFind);
+//            for (Map<String, Object> m : resultFind) {
+//                System.out.println(m);
+//            }
             //System.out.println(result.toString());
         } catch (SQLException e) {
             e.printStackTrace();

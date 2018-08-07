@@ -9,8 +9,5 @@
         <module name="RabbitMQTest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="RabbitMQTest" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
