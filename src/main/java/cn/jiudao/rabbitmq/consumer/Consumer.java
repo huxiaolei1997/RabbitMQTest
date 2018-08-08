@@ -41,7 +41,7 @@ public class Consumer implements ShutdownListener{
 
 	private Channel channel;
 
-	private Timer timer;
+	private static final Timer timer = new Timer();
 
 	private JdbcUtils jdbcUtils;
 
