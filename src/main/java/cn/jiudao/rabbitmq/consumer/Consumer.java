@@ -35,13 +35,13 @@ public class Consumer implements ShutdownListener{
 	// 队列名
 	private static final String QUEUE_NAME = "telesignalling";
 
-	private ScheduledExecutorService scheduledExecutorService;
+	private static final ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
 
 	private Connection connection;
 
 	private Channel channel;
 
-	private static final Timer timer = new Timer();
+	//private static final Timer timer = new Timer();
 
 	private JdbcUtils jdbcUtils;
 
@@ -52,7 +52,7 @@ public class Consumer implements ShutdownListener{
     }
 
 	protected void run() {
-		this.runConsumer();
+		this.consumer();
 	}
 
 	@Override
@@ -61,24 +61,22 @@ public class Consumer implements ShutdownListener{
 		reConnect();
 	}
 
+	// 发生异常时 重新 连接 RabbitMQ 服务器
 	private void reConnect() {
 		System.out.println("调用 reConnect()");
-		timer.schedule(new TimerTask() {
-			@Override
-			public void run() {
-				ApplicationContext context = new ClassPathXmlApplicationContext("spring-rabbitmq.xml");
-				Consumer consumer = (Consumer) context.getBean("consumer");
-				consumer.runConsumer();
-			}
-		}, 6000);
+		if (!scheduledExecutorService.isShutdown()) {
+		    scheduledExecutorService.schedule(() -> Consumer.this.runBySpring(), 60, TimeUnit.SECONDS);
+        }
 	}
 
 
-	private void runConsumer() {
+	// 消费者主程序
+	private void consumer() {
 		try {
 			// 获取到连接以及通道
 			connection = ConnectionUtils.getConnection();
 			channel = connection.createChannel();
+
 			// 声明队列
 			channel.queueDeclare(QUEUE_NAME, true, false, false, null);
 
@@ -114,10 +112,15 @@ public class Consumer implements ShutdownListener{
 		}
 	}
 
-
-	public static void main(String[] args) {
+	// 通过 spring 来启动消费者
+	private void runBySpring() {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-rabbitmq.xml");
         Consumer consumer = (Consumer) context.getBean("consumer");
         consumer.run();
+    }
+
+	public static void main(String[] args) {
+        Consumer consumer = new Consumer();
+        consumer.runBySpring();
 	}
 }
