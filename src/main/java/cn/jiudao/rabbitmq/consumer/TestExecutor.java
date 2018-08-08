@@ -19,21 +19,32 @@ public class TestExecutor {
     private ExecutorService executorService;
     private TestExecutor testExecutor;
     public static void main(String[] args) {
-        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
-        // 延迟 5s 执行
-        long startTime = System.currentTimeMillis();
-        scheduledExecutorService.schedule(() -> {
-            System.out.println("test");
-        }, 5, TimeUnit.SECONDS);
-        long endTime = System.currentTimeMillis();
-        System.out.println("total time = " + (endTime - startTime));
-        // 该方法调用之后不允许往线程池里面添加新的线程，此时线程池的状态将会变为 SHUTDOWN 状态，所有在调用 shutdown() 方法之前提交的任务都会执行
-        // 一旦线程池结束执行所有的任务，线程池才会真正的关闭
-        scheduledExecutorService.shutdown();
+//        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
+//        // 延迟 5s 执行
+//        long startTime = System.currentTimeMillis();
+//        scheduledExecutorService.schedule(() -> {
+//            System.out.println("test");
+//        }, 5, TimeUnit.SECONDS);
+//        long endTime = System.currentTimeMillis();
+//        System.out.println("total time = " + (endTime - startTime));
+//        // 该方法调用之后不允许往线程池里面添加新的线程，此时线程池的状态将会变为 SHUTDOWN 状态，所有在调用 shutdown() 方法之前提交的任务都会执行
+//        // 一旦线程池结束执行所有的任务，线程池才会真正的关闭
+//        scheduledExecutorService.shutdown();
+
+        //Abc abc = new TestExecutor().new Abc();
     }
 
-    private void run() {
-        testExecutor = new TestExecutor();
-        System.out.println(testExecutor.hashCode());
+    private static void run() {
+        for (int i = 0; i < 1000; i++) {
+            System.out.println("test");
+        }
     }
+
+    private  class Abc extends TestExecutor {
+        public  void abc() {
+            System.out.println("abc");
+        }
+    }
+
+
 }

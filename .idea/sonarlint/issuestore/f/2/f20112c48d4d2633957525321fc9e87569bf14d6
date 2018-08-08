@@ -1,0 +1,44 @@
+
+nsquid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(Îù¸€ýÿÿÿÿ8“Ûÿ‘Ñ,
+isquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(ÿºÔä8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(¥à¨ýÿÿÿÿ8“Ûÿ‘Ñ,
+osquid:CommentedOutCodeLineê"<This block of commented-out lines of code should be removed.(½Ð™ûÿÿÿÿ8ÖÆ½’Ñ,
+Gsquid:S1148Ñ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Þªâ‘Ñ,
+isquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(ÌíÎã8“Ûÿ‘Ñ,
+isquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(áØçé8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(åÚÎÌøÿÿÿÿ8“Ûÿ‘Ñ,
+osquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ8“Ûÿ‘Ñ,
+osquid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(àüÑ¥üÿÿÿÿ8üØŒ“Ñ,
+xsquid:S2293Ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ‡äŒ8‚‹Œ“Ñ,
+isquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(…±ã­8æ±è‘Ñ,
+xsquid:S1450­"YRemove the "connection" field and declare it as a local variable in the relevant methods.(ÿ›ÅÒ8ê‹Ð‘Ñ,
+nsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(ŒñÔ¦øÿÿÿÿ8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(ÑÙÉ«ýÿÿÿÿ8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(àÙÈýùÿÿÿÿ8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(©”£žúÿÿÿÿ8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(àÈëÝûÿÿÿÿ8“Ûÿ‘Ñ,
+isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(œ…œ§8“Ûÿ‘Ñ,
+osquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(°ãíÑøÿÿÿÿ8ê‹Ð‘Ñ,
+osquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(¶õ¸Žûÿÿÿÿ8ÄÿÕ–Ñ,
+osquid:CommentedOutCodeLineñ"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ê‹Ð‘Ñ,
+osquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ8“Ûÿ‘Ñ,
+_squid:S1854Ù"@Remove this useless assignment to local variable "resultInsert".(¢õáí8Ž»”“Ñ,
+Psquid:S1481Ù"1Remove this unused "resultInsert" local variable.(¢õáí8Ž»”“Ñ,
+nsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(‹‡Ëåþÿÿÿÿ8“Ûÿ‘Ñ,
+isquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(ýåË8“Ûÿ‘Ñ,
+nsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ8ê‹Ð‘Ñ,
+osquid:CommentedOutCodeLineÉ"<This block of commented-out lines of code should be removed.(¾µÙ¢øÿÿÿÿ8îëŒ“Ñ,
+\
+squid:S106ð"9Replace this use of System.out or System.err by a logger.(ÛÆîòÿÿÿÿÿ8ê‹Ð‘Ñ,
+esquid:S2142Ð"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8—çö‘Ñ,
+jsquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(‹£…ò8ê‹Ð‘Ñ,
+Gsquid:S1148Û"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ž»”“Ñ,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æä—Ýúÿÿÿÿ8“Ûÿ‘Ñ,
+isquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ðäªŠ8“Ûÿ‘Ñ,
+jsquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(ú¦ÇÒ8—çö‘Ñ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÐàÊ†8“Ûÿ‘Ñ,
+hsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(™†ƒ 8“Ûÿ‘Ñ,
+W
+squid:S106ë"9Replace this use of System.out or System.err by a logger.(–¯‡¹8ÖÆ½’Ñ,
+W
+squid:S106Ê"9Replace this use of System.out or System.err by a logger.(îÜ­ñ8ê‹Ð‘Ñ,

@@ -1,0 +1,13 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(λτίΚ8Ά»¥Ρ,
+9squid:S1700"Rename field "testExecutor"(Ε‚ζο8ÿΜΡ,
+Osquid:S1602",Remove useless curly braces around statement(Ψ®’ϊÿÿÿÿ8Ά»¥Ρ,
+\squid:UselessImportCheck",Remove this unused import 'java.util.Timer'.(†£ραÿÿÿÿÿ8«‘ΡΡ,
+Ssquid:UnusedPrivateMethod#"(Remove this unused private "run" method.(®Ò―8ϊϊ¤Ρ,
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ίεθηϋÿÿÿÿ8ΰΝΡ,
+ysquid:S1450"[Remove the "testExecutor" field and declare it as a local variable in the relevant methods.(Ε‚ζο8—ΑΦΡ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(χΧΎ®ϋÿÿÿÿ8€ΗªΡ,
+Vsquid:S1068"3Remove this unused "executorService" private field.(’ ώόÿÿÿÿ8ΰΝΡ,

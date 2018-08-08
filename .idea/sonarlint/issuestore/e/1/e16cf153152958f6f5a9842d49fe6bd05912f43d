@@ -1,0 +1,13 @@
+
+msquid:S3008"ORename this field "HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿß›Ù8´ÙÐ‘Ñ,
+vsquid:S3008"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªµ¬Óüÿÿÿÿ8´ÙÐ‘Ñ,
+|squid:S1450"YRemove the "connection" field and declare it as a local variable in the relevant methods.(’çù†ûÿÿÿÿ8´ÙÐ‘Ñ,
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Å ‹ª8´ÙÐ‘Ñ,
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8´ÙÐ‘Ñ,
+msquid:S3008"ORename this field "PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Îÿ•8´ÙÐ‘Ñ,
+nsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(‰à€¯ÿÿÿÿÿ8´ÙÐ‘Ñ,
+O
+squid:S106D"9Replace this use of System.out or System.err by a logger.(ÈÓû¨
+vsquid:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìôÍ–ûÿÿÿÿ8´ÙÐ‘Ñ,
+vsquid:S3008"XRename this field "RETRYINTERVAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇŒØ8´ÙÐ‘Ñ,
+nsquid:S3008"PRename this field "VHOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±®¼·8´ÙÐ‘Ñ,

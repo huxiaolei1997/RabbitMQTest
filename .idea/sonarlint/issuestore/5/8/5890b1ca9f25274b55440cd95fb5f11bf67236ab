@@ -1,0 +1,27 @@
+
+osquid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö‹è)
+?squid:S1148o"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+csquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(ÀôƒÑ
+T
+squid:S106j"9Replace this use of System.out or System.err by a logger.(­Ÿ„Áúÿÿÿÿ
+nsquid:S00117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ê˜†ûÿÿÿÿ
+qsquid:S2293Š"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ‡äŒ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¼ÐÏ¾ýÿÿÿÿ
+osquid:CommentedOutCodeLine‘"<This block of commented-out lines of code should be removed.(„Ûæ¶ÿÿÿÿÿ8­®ì’Ñ,
+U
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(¡ÙùÀþÿÿÿÿ
+U
+squid:S106Ž"9Replace this use of System.out or System.err by a logger.(…ƒ’‹ùÿÿÿÿ
+isquid:S00117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ’½˜
+Ysquid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+@squid:S1148§"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+usquid:S2293V"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ºöºýÿÿÿÿ
+jsquid:CommentedOutCodeLine—"<This block of commented-out lines of code should be removed.(”ŠëÄ8­®ì’Ñ,
+osquid:CommentedOutCodeLinež"<This block of commented-out lines of code should be removed.(¨ÀÊüÿÿÿÿ8­®ì’Ñ,
+?squid:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+jsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(¥èôö8­®ì’Ñ,
+nsquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â—Ü…ûÿÿÿÿ
+?squid:S1148w"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
