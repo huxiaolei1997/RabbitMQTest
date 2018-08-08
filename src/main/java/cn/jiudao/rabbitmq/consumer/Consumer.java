@@ -41,6 +41,8 @@ public class Consumer implements ShutdownListener{
 
 	private Channel channel;
 
+	private Timer timer;
+
 	private JdbcUtils jdbcUtils;
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
@@ -61,7 +63,7 @@ public class Consumer implements ShutdownListener{
 
 	private void reConnect() {
 		System.out.println("调用 reConnect()");
-		new Timer().schedule(new TimerTask() {
+		timer.schedule(new TimerTask() {
 			@Override
 			public void run() {
 				ApplicationContext context = new ClassPathXmlApplicationContext("spring-rabbitmq.xml");
